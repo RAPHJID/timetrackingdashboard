@@ -1,0 +1,115 @@
+/* .{
+    margin: 0;
+    padding: 0;
+} */
+.container{
+    height: 100vh;
+    background-color:  hsl(226, 43%, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(4,25%);
+    gap: 20px;
+    /* grid-template-areas: ; */
+    
+}
+h1,h3,h4,h6{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%;
+    font-weight: lighter;
+}
+.grid-item1{
+    grid-row: 1/4;
+    /* margin-left: 20px; */
+    background-color:hsl(235, 46%, 20%);
+    /* align-content: center; */
+    /* text-align: center; */
+    border-radius: 10px;
+    /* margin-top: 30%; */
+    height: 100%;
+    
+}
+/* .grid-item{
+    margin-left: 120px;
+    margin-top: 30%;
+    /* justify-content: space-between; */
+
+.weekly{
+    color: rgb(167, 167, 167);
+    font-weight: lighter;
+}
+img{
+    height: 65px;
+    /* justify-content: left; */
+    margin-top: 5%;
+    /* border-color: aliceblue;
+    border-block-color: white; */
+    margin-left: 10%;
+    border-style:ridge;
+    border-radius: 50%;
+    
+    
+}
+.jeremy{
+    background-color:hsl(246, 80%, 60%);
+    border-radius: 10px;
+    height: 65%;
+    /* margin-bottom: 5%; */
+    justify-content: center;
+}
+.grid-item2{
+    margin-left: 120px;
+    margin-top: 8%;
+    background-color: hsl(235, 46%, 20%);
+    height: 120%;
+    border-radius: 8px;
+    /* width: 80%; */
+    justify-content: center;
+}
+.grid-item3{
+    margin-left: 120px;
+    margin-top: 8%;
+    background-color: hsl(235, 46%, 20%);
+    height: 120%;
+
+}
+.grid-item4{
+    margin-left: 120px;
+    margin-top: 8%;
+    background-color: hsl(235, 46%, 20%);
+    height: 120%;
+    justify-content: center;
+
+}
+.grid-item5{
+    margin-left: 120px;
+    margin-top: 40%;
+    background-color: hsl(235, 46%, 20%);
+    height: 120%;
+
+}
+.grid-item6{
+    margin-left: 120px;
+    margin-top: 40%;
+    background-color:hsl(235, 46%, 20%);
+    height: 120%;
+   
+}
+.grid-item7{
+    margin-left: 120px;
+    margin-top: 40%;
+    background-color:   hsl(235, 46%, 20%);
+    height: 120%;
+    border-radius: 5px;
+
+}
+h4{
+    margin-left: 5%;
+}
